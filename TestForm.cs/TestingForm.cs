@@ -257,7 +257,7 @@ namespace TestForm.cs
                 this.npcGuitarra1_p1 += listaCartas_Guitarra[this.cmbSlot1_Guitarra1_J1.SelectedIndex];
                 this.npcGuitarra1_p1 += listaCartas_Guitarra[this.cmbSlot2_Guitarra1_J1.SelectedIndex];
                 this.npcGuitarra1_p1 += listaCartas_Guitarra[this.cmbSlot3_Guitarra1_J1.SelectedIndex];
-                this.p1 += this.npcGuitarra1_p1;
+                this.p1.GetNPC_Guitarra1 = this.npcGuitarra1_p1;
 
                 this.af_guitarra1_J1.Text = "AF:  " + this.npcGuitarra1_p1.AtaqueFisico.ToString();
                 this.am_guitarra1_J1.Text = "AM: "   + this.npcGuitarra1_p1.AtaqueMagico.ToString();
@@ -275,12 +275,12 @@ namespace TestForm.cs
             #region PLAYER 1 - NPC GUITARRA 2
             if (this.checkGuitarra2_J1.Checked)
             {
-                this.npcGuitarra2_p1 = new NPC_Guitarra(1, "NPC_GUITARRA2_1", "", 1000, 1, 1, 100, 100, 100, 100);
+                this.npcGuitarra2_p1 = new NPC_Guitarra(12, "NPC_GUITARRA2_1", "", 1000, 1, 1, 100, 100, 100, 100);
                                 
                 this.npcGuitarra2_p1 += listaCartas_Guitarra[this.cmbSlot1_Guitarra2_J1.SelectedIndex];
                 this.npcGuitarra2_p1 += listaCartas_Guitarra[this.cmbSlot2_Guitarra2_J1.SelectedIndex];
                 this.npcGuitarra2_p1 += listaCartas_Guitarra[this.cmbSlot3_Guitarra2_J1.SelectedIndex];
-                this.p1 += this.npcGuitarra2_p1;
+                this.p1.GetNPC_Guitarra2 = this.npcGuitarra2_p1;
 
                 this.af_guitarra2_J1.Text = "AF:  " + this.npcGuitarra2_p1.AtaqueFisico.ToString();
                 this.am_guitarra2_J1.Text = "AM: "   + this.npcGuitarra2_p1.AtaqueMagico.ToString();
