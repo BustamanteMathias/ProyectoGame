@@ -10,3 +10,9 @@ C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\Proyec
 C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ProyectoGame.csproj.CoreCompileInputs.cache
 C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.dll
 C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.pdb
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\bin\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\obj\Debug\ProyectoGame.csprojAssemblyReference.cache
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\obj\Debug\ProyectoGame.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\Game\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.pdb

@@ -267,6 +267,7 @@ namespace TestForm.cs
             }
             else
             {
+                this.p1.GetNPC_Guitarra1 = null;
                 this.groupBoxGuitarra1_1.Visible = false;
             }
             #endregion
@@ -474,7 +475,7 @@ namespace TestForm.cs
         private void siguienteTurno_Click(object sender, EventArgs e)
         {
             string s = "";
-            Combate.Player_vs_Player(this.p1, this.p2, 1, out s);
+            Combate.Player_vs_Player(this.p1, this.p2, out s);
 
             if (!this.p2.ExisteNPC_Guitarra1)
             {
@@ -519,84 +520,114 @@ namespace TestForm.cs
             this.defensaMagica2.Text = "DM: " + p2.DefensaMagica.ToString();
             #endregion
 
-            #region PLAYER1 - GUITARRA 1
-            this.af_guitarra1_J1.Text = "AF:  " + this.npcGuitarra1_p1.AtaqueFisico.ToString();
-            this.am_guitarra1_J1.Text = "AM: " + this.npcGuitarra1_p1.AtaqueMagico.ToString();
-            this.df_guitarra1_J1.Text = "DF:  " + this.npcGuitarra1_p1.DefensaFisica.ToString();
-            this.dm_guitarra1_J1.Text = "DM: " + this.npcGuitarra1_p1.DefensaMagica.ToString();
-            this.vida_guitarra1_J1.Text = this.npcGuitarra1_p1.Vida.ToString();
-            #endregion
+            //#region PLAYER1 - GUITARRA 1
+            //if (this.p1.ExisteNPC_Guitarra1 == true)
+            //{
+            //    this.af_guitarra1_J1.Text = "AF:  " + this.npcGuitarra1_p1.AtaqueFisico.ToString();
+            //    this.am_guitarra1_J1.Text = "AM: " + this.npcGuitarra1_p1.AtaqueMagico.ToString();
+            //    this.df_guitarra1_J1.Text = "DF:  " + this.npcGuitarra1_p1.DefensaFisica.ToString();
+            //    this.dm_guitarra1_J1.Text = "DM: " + this.npcGuitarra1_p1.DefensaMagica.ToString();
+            //    this.vida_guitarra1_J1.Text = this.npcGuitarra1_p1.Vida.ToString();
+            //}
+            //#endregion
 
             #region PLAYER1 - GUITARRA 2 
-            this.af_guitarra2_J1.Text = "AF:  " + this.npcGuitarra2_p1.AtaqueFisico.ToString();
-            this.am_guitarra2_J1.Text = "AM: " + this.npcGuitarra2_p1.AtaqueMagico.ToString();
-            this.df_guitarra2_J1.Text = "DF:  " + this.npcGuitarra2_p1.DefensaFisica.ToString();
-            this.dm_guitarra2_J1.Text = "DM: " + this.npcGuitarra2_p1.DefensaMagica.ToString();
-            this.vida_guitarra2_J1.Text = this.npcGuitarra2_p1.Vida.ToString();
+            if (p1.ExisteNPC_Guitarra2)
+            {
+                this.af_guitarra2_J1.Text = "AF:  " + this.npcGuitarra2_p1.AtaqueFisico.ToString();
+                this.am_guitarra2_J1.Text = "AM: " + this.npcGuitarra2_p1.AtaqueMagico.ToString();
+                this.df_guitarra2_J1.Text = "DF:  " + this.npcGuitarra2_p1.DefensaFisica.ToString();
+                this.dm_guitarra2_J1.Text = "DM: " + this.npcGuitarra2_p1.DefensaMagica.ToString();
+                this.vida_guitarra2_J1.Text = this.npcGuitarra2_p1.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER1 - BAJO
-            this.af_bajo_J1.Text = "AF:  " + this.npcBajo_p1.AtaqueFisico.ToString();
+            if (this.p1.ExisteNPC_Bajo)
+            {
+                this.af_bajo_J1.Text = "AF:  " + this.npcBajo_p1.AtaqueFisico.ToString();
                 this.am_bajo_J1.Text = "AM: " + this.npcBajo_p1.AtaqueMagico.ToString();
                 this.df_bajo_J1.Text = "DF:  " + this.npcBajo_p1.DefensaFisica.ToString();
                 this.dm_bajo_J1.Text = "DM: " + this.npcBajo_p1.DefensaMagica.ToString();
                 this.vida_bajo_J1.Text = this.npcBajo_p1.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 1 - BATERIA
+            if (this.p1.ExisteNPC_Bateria)
+            {
                 this.af_bateria_J1.Text = "AF:  " + this.npcBateria_p1.AtaqueFisico.ToString();
                 this.am_bateria_J1.Text = "AM: " + this.npcBateria_p1.AtaqueMagico.ToString();
                 this.df_bateria_J1.Text = "DF:  " + this.npcBateria_p1.DefensaFisica.ToString();
                 this.dm_bateria_J1.Text = "DM: " + this.npcBateria_p1.DefensaMagica.ToString();
                 this.vida_bateria_J1.Text = this.npcBateria_p1.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 1 - VOZ
+            if (this.p1.ExisteNPC_Voz)
+            {
                 this.af_voz_J1.Text = "AF:  " + this.npcVoz_p1.AtaqueFisico.ToString();
                 this.am_voz_J1.Text = "AM: " + this.npcVoz_p1.AtaqueMagico.ToString();
                 this.df_voz_J1.Text = "DF:  " + this.npcVoz_p1.DefensaFisica.ToString();
                 this.dm_voz_J1.Text = "DM: " + this.npcVoz_p1.DefensaMagica.ToString();
                 this.vida_voz_J1.Text = this.npcVoz_p1.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 2 - GUITARRA 1
+            if (this.p2.ExisteNPC_Guitarra1)
+            {
                 this.af_guitarra1_J2.Text = "AF:  " + this.npcGuitarra1_p2.AtaqueFisico.ToString();
                 this.am_guitarra1_J2.Text = "AM: " + this.npcGuitarra1_p2.AtaqueMagico.ToString();
                 this.df_guitarra1_J2.Text = "DF:  " + this.npcGuitarra1_p2.DefensaFisica.ToString();
                 this.dm_guitarra1_J2.Text = "DM: " + this.npcGuitarra1_p2.DefensaMagica.ToString();
                 this.vida_guitarra1_J2.Text = this.npcGuitarra1_p2.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 2 - GUITARRA 2
+            if (this.p2.ExisteNPC_Guitarra2)
+            {
                 this.af_guitarra2_J2.Text = "AF:  " + this.npcGuitarra2_p2.AtaqueFisico.ToString();
                 this.am_guitarra2_J2.Text = "AM: " + this.npcGuitarra2_p2.AtaqueMagico.ToString();
                 this.df_guitarra2_J2.Text = "DF:  " + this.npcGuitarra2_p2.DefensaFisica.ToString();
                 this.dm_guitarra2_J2.Text = "DM: " + this.npcGuitarra2_p2.DefensaMagica.ToString();
                 this.vida_guitarra2_J2.Text = this.npcGuitarra2_p2.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 2 - BAJO
+            if (this.p2.ExisteNPC_Bajo)
+            {
                 this.af_bajo_J2.Text = "AF:  " + this.npcBajo_p2.AtaqueFisico.ToString();
                 this.am_bajo_J2.Text = "AM: " + this.npcBajo_p2.AtaqueMagico.ToString();
                 this.df_bajo_J2.Text = "DF:  " + this.npcBajo_p2.DefensaFisica.ToString();
                 this.dm_bajo_J2.Text = "DM: " + this.npcBajo_p2.DefensaMagica.ToString();
                 this.vida_bajo_J2.Text = this.npcBajo_p2.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 2 - BATERIA
+            if (p2.ExisteNPC_Bateria)
+            {
                 this.af_bateria_J2.Text = "AF:  " + this.npcBateria_p2.AtaqueFisico.ToString();
                 this.am_bateria_J2.Text = "AM: " + this.npcBateria_p2.AtaqueMagico.ToString();
                 this.df_bateria_J2.Text = "DF:  " + this.npcBateria_p2.DefensaFisica.ToString();
                 this.dm_bateria_J2.Text = "DM: " + this.npcBateria_p2.DefensaMagica.ToString();
                 this.vida_bateria_J2.Text = this.npcBateria_p2.Vida.ToString();
+            }
             #endregion
 
             #region PLAYER 2 - VOZ
+            if (this.p2.ExisteNPC_Voz)
+            {
                 this.af_voz_J2.Text = "AF:  " + this.npcVoz_p2.AtaqueFisico.ToString();
                 this.am_voz_J2.Text = "AM: " + this.npcVoz_p2.AtaqueMagico.ToString();
                 this.df_voz_J2.Text = "DF:  " + this.npcVoz_p2.DefensaFisica.ToString();
                 this.dm_voz_J2.Text = "DM: " + this.npcVoz_p2.DefensaMagica.ToString();
                 this.vida_voz_J2.Text = this.npcVoz_p2.Vida.ToString();
+            }
             #endregion
         }
     }
