@@ -1,0 +1,1 @@
+public enum EGrado { Standar, Raro, Legendario, Mitico, Unico}

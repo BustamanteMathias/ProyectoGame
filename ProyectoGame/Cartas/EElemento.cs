@@ -1,0 +1,1 @@
+public enum EElemento { Divino, Demoniaco, Toxico, Natural}

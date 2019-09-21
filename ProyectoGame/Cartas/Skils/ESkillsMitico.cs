@@ -1,0 +1,1 @@
+public enum ESkillsMitico { Skill_1, Skill_2, Skill_3 }

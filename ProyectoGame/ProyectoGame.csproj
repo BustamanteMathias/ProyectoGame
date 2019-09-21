@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD1E7CBC-F4E4-4D6C-8605-E76C1F1E306D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibrary1</RootNamespace>
+    <AssemblyName>ClassLibrary1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base de Datos\DBNpc.cs" />
+    <Compile Include="Cartas\Carta.cs" />
+    <Compile Include="Cartas\CartaLegendario.cs" />
+    <Compile Include="Cartas\CartaRaro.cs" />
+    <Compile Include="Cartas\CartaSoporte.cs" />
+    <Compile Include="Cartas\CartaStandard.cs" />
+    <Compile Include="Cartas\CartaUnico.cs" />
+    <Compile Include="Cartas\CartaMitico.cs" />
+    <Compile Include="Base de Datos\DBCartas.cs" />
+    <Compile Include="Cartas\EElemento.cs" />
+    <Compile Include="Cartas\EClase.cs" />
+    <Compile Include="Cartas\EGrado.cs" />
+    <Compile Include="Cartas\Skils\ESkillsLegendario.cs" />
+    <Compile Include="Cartas\Skils\ESkillsMitico.cs" />
+    <Compile Include="Cartas\Skils\ESkillsRaro.cs" />
+    <Compile Include="Cartas\Skils\ESkillsUnico.cs" />
+    <Compile Include="Combate\Combate.cs" />
+    <Compile Include="NPCs\NPC.cs" />
+    <Compile Include="NPCs\NPC_Bajo.cs" />
+    <Compile Include="NPCs\NPC_Bateria.cs" />
+    <Compile Include="NPCs\NPC_Guitarra.cs" />
+    <Compile Include="NPCs\NPC_Voz.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

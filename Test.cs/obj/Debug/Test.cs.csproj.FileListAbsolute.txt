@@ -1,0 +1,10 @@
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\bin\Debug\Test.cs.exe.config
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\bin\Debug\Test.cs.exe
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\bin\Debug\Test.cs.pdb
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\bin\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\obj\Debug\Test.cs.csprojAssemblyReference.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\obj\Debug\Test.cs.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\obj\Debug\Test.cs.csproj.CopyComplete
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\obj\Debug\Test.cs.exe
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\Test.cs\obj\Debug\Test.cs.pdb

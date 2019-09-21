@@ -1,0 +1,12 @@
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ProyectoGame.csproj.CoreCompileInputs.cache
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Axel\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\ProyectoGame.csprojAssemblyReference.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\bin\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ProyectoGame.csprojAssemblyReference.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ProyectoGame.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\ProyectoGame\obj\Debug\ClassLibrary1.pdb

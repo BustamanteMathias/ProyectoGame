@@ -1,0 +1,13 @@
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\bin\Debug\TestForm.cs.exe.config
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\bin\Debug\TestForm.cs.exe
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\bin\Debug\TestForm.cs.pdb
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\bin\Debug\ClassLibrary1.dll
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\bin\Debug\ClassLibrary1.pdb
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.csprojAssemblyReference.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.Properties.Resources.resources
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.TestingForm.resources
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.csproj.GenerateResource.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.csproj.CopyComplete
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.exe
+C:\Users\Mathias\Desktop\ProyectoGame\ProyectoGame\TestForm.cs\obj\Debug\TestForm.cs.pdb
