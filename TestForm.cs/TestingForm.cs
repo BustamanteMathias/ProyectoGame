@@ -302,7 +302,7 @@ namespace TestForm.cs
                 this.npcBajo_p1 += listaCartas_Bajo[this.cmbSlot1_Bajo_J1.SelectedIndex];
                 this.npcBajo_p1 += listaCartas_Bajo[this.cmbSlot2_Bajo_J1.SelectedIndex];
                 this.npcBajo_p1 += listaCartas_Bajo[this.cmbSlot3_Bajo_J1.SelectedIndex];
-                this.p1 += this.npcGuitarra1_p1;
+                this.p1 += this.npcBajo_p1;
 
                 this.af_bajo_J1.Text = "AF:  " + this.npcBajo_p1.AtaqueFisico.ToString();
                 this.am_bajo_J1.Text = "AM: "   + this.npcBajo_p1.AtaqueMagico.ToString();
@@ -368,7 +368,7 @@ namespace TestForm.cs
                 this.npcGuitarra1_p2 += listaCartas_Guitarra[this.cmbSlot1_Guitarra1_J2.SelectedIndex];
                 this.npcGuitarra1_p2 += listaCartas_Guitarra[this.cmbSlot2_Guitarra1_J2.SelectedIndex];
                 this.npcGuitarra1_p2 += listaCartas_Guitarra[this.cmbSlot3_Guitarra1_J2.SelectedIndex];
-                this.p2 += this.npcGuitarra1_p2;
+                this.p2.GetNPC_Guitarra1 = this.npcGuitarra1_p2;
 
                 this.af_guitarra1_J2.Text = "AF:  " + this.npcGuitarra1_p2.AtaqueFisico.ToString();
                 this.am_guitarra1_J2.Text = "AM: "   + this.npcGuitarra1_p2.AtaqueMagico.ToString();
@@ -390,7 +390,7 @@ namespace TestForm.cs
                 this.npcGuitarra2_p2 += listaCartas_Guitarra[this.cmbSlot1_Guitarra2_J2.SelectedIndex];
                 this.npcGuitarra2_p2 += listaCartas_Guitarra[this.cmbSlot2_Guitarra2_J2.SelectedIndex];
                 this.npcGuitarra2_p2 += listaCartas_Guitarra[this.cmbSlot3_Guitarra2_J2.SelectedIndex];
-                this.p2 += this.npcGuitarra2_p2;
+                this.p2.GetNPC_Guitarra2 = this.npcGuitarra2_p2;
 
                 this.af_guitarra2_J2.Text = "AF:  " + this.npcGuitarra2_p2.AtaqueFisico.ToString();
                 this.am_guitarra2_J2.Text = "AM: "   + this.npcGuitarra2_p2.AtaqueMagico.ToString();
