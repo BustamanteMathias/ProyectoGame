@@ -520,16 +520,16 @@ namespace TestForm.cs
             this.defensaMagica2.Text = "DM: " + p2.DefensaMagica.ToString();
             #endregion
 
-            //#region PLAYER1 - GUITARRA 1
-            //if (this.p1.ExisteNPC_Guitarra1 == true)
-            //{
-            //    this.af_guitarra1_J1.Text = "AF:  " + this.npcGuitarra1_p1.AtaqueFisico.ToString();
-            //    this.am_guitarra1_J1.Text = "AM: " + this.npcGuitarra1_p1.AtaqueMagico.ToString();
-            //    this.df_guitarra1_J1.Text = "DF:  " + this.npcGuitarra1_p1.DefensaFisica.ToString();
-            //    this.dm_guitarra1_J1.Text = "DM: " + this.npcGuitarra1_p1.DefensaMagica.ToString();
-            //    this.vida_guitarra1_J1.Text = this.npcGuitarra1_p1.Vida.ToString();
-            //}
-            //#endregion
+            #region PLAYER1 - GUITARRA 1
+            if (this.p1.ExisteNPC_Guitarra1 == true)
+            {
+                this.af_guitarra1_J1.Text = "AF:  " + this.npcGuitarra1_p1.AtaqueFisico.ToString();
+                this.am_guitarra1_J1.Text = "AM: " + this.npcGuitarra1_p1.AtaqueMagico.ToString();
+                this.df_guitarra1_J1.Text = "DF:  " + this.npcGuitarra1_p1.DefensaFisica.ToString();
+                this.dm_guitarra1_J1.Text = "DM: " + this.npcGuitarra1_p1.DefensaMagica.ToString();
+                this.vida_guitarra1_J1.Text = this.npcGuitarra1_p1.Vida.ToString();
+            }
+            #endregion
 
             #region PLAYER1 - GUITARRA 2 
             if (p1.ExisteNPC_Guitarra2)
