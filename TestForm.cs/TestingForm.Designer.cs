@@ -151,6 +151,7 @@ namespace TestForm.cs
             this.cmbSlot2_Guitarra1_J2 = new System.Windows.Forms.ComboBox();
             this.cmbSlot1_Guitarra1_J2 = new System.Windows.Forms.ComboBox();
             this.listBox = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBoxSup1.SuspendLayout();
             this.groupBoxSup2.SuspendLayout();
             this.groupBoxGuitarra1_1.SuspendLayout();
@@ -255,9 +256,9 @@ namespace TestForm.cs
             // 
             this.siguienteTurno.Location = new System.Drawing.Point(210, 233);
             this.siguienteTurno.Name = "siguienteTurno";
-            this.siguienteTurno.Size = new System.Drawing.Size(775, 80);
+            this.siguienteTurno.Size = new System.Drawing.Size(307, 80);
             this.siguienteTurno.TabIndex = 1;
-            this.siguienteTurno.Text = "SIGUIENTE TURNO";
+            this.siguienteTurno.Text = "TEST TURNO POR TURNO (Mathi)";
             this.siguienteTurno.UseVisualStyleBackColor = true;
             this.siguienteTurno.Click += new System.EventHandler(this.siguienteTurno_Click);
             // 
@@ -389,7 +390,7 @@ namespace TestForm.cs
             this.SET.Name = "SET";
             this.SET.Size = new System.Drawing.Size(193, 80);
             this.SET.TabIndex = 0;
-            this.SET.Text = "SET";
+            this.SET.Text = "SET PARAMETROS";
             this.SET.UseVisualStyleBackColor = true;
             this.SET.Click += new System.EventHandler(this.SET_Click);
             // 
@@ -1411,12 +1412,23 @@ namespace TestForm.cs
             this.listBox.Size = new System.Drawing.Size(499, 407);
             this.listBox.TabIndex = 19;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(678, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(307, 80);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "COMENZAR CICLO (Axel)";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TestingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
             this.ClientSize = new System.Drawing.Size(1502, 547);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox);
             this.Controls.Add(this.groupBoxVoz_2);
             this.Controls.Add(this.groupBoxVoz_1);
@@ -1595,6 +1607,7 @@ namespace TestForm.cs
         private System.Windows.Forms.CheckBox checkGuitarra2_J2;
         private System.Windows.Forms.CheckBox checkGuitarra1_J2;
         private System.Windows.Forms.ListBox listBox;
+        private System.Windows.Forms.Button button1;
     }
 }
 

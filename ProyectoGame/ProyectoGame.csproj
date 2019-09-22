@@ -58,7 +58,7 @@
     <Compile Include="Cartas\Skils\ESkillsMitico.cs" />
     <Compile Include="Cartas\Skils\ESkillsRaro.cs" />
     <Compile Include="Cartas\Skils\ESkillsUnico.cs" />
-    <Compile Include="Ciclo Combate\CicloCombate.cs" />
+    <Compile Include="Combate\CicloCombate.cs" />
     <Compile Include="Combate\Combate.cs" />
     <Compile Include="NPCs\NPC.cs" />
     <Compile Include="NPCs\NPC_Bajo.cs" />
