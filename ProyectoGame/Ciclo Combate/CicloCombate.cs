@@ -8,5 +8,6 @@ namespace ClassLibrary1.Combate
 {
     public static class CicloCombate
     {
+        public static bool = true;
     }
 }
