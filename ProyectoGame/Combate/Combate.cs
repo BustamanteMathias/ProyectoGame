@@ -22,7 +22,8 @@ namespace ProyectoGame
             bool flagBateria = true;
             bool flagVoz = true;
 
-            Random rnd = new Random();
+            Random rnd = new Random(); //CACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+            bool laconchadetumadre = true;
 
             /* 
              LOGICA DE COMBATE:
